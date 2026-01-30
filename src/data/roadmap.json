@@ -1,0 +1,55 @@
+{
+  "quarters": ["Q1", "Q2", "Q3", "Q4"],
+  "objectives": [
+    {
+      "id": "obj-1",
+      "name": "Grow Activation",
+      "initiatives": [
+        { "id": "init-1", "name": "Onboarding Improvements" },
+        { "id": "init-2", "name": "Trial Conversion" }
+      ]
+    },
+    {
+      "id": "obj-2",
+      "name": "Expand Retention",
+      "initiatives": [
+        { "id": "init-3", "name": "Usage Insights" }
+      ]
+    }
+  ],
+  "features": [
+    {
+      "id": "feat-1",
+      "title": "New Signup Flow",
+      "objectiveId": "obj-1",
+      "initiativeId": "init-1",
+      "quarter": "Q1",
+      "capacity": { "type": "base", "value": 3 }
+    },
+    {
+      "id": "feat-2",
+      "title": "Guided Checklists",
+      "objectiveId": "obj-1",
+      "initiativeId": "init-1",
+      "quarter": "Q2",
+      "capacity": { "type": "extra", "value": 2 }
+    },
+    {
+      "id": "feat-3",
+      "title": "Paywall A/B Tests",
+      "objectiveId": "obj-1",
+      "initiativeId": "init-2",
+      "quarter": "Q2",
+      "capacity": { "type": "base", "value": 2 }
+    },
+    {
+      "id": "feat-4",
+      "title": "Churn Prediction v1",
+      "objectiveId": "obj-2",
+      "initiativeId": "init-3",
+      "quarter": "Q4",
+      "capacity": { "type": "extra", "value": 1 }
+    }
+  ]
+}
+
